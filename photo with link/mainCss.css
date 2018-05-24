@@ -1,0 +1,123 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:#252128;
+	color:white;
+}
+
+
+.main1{
+	text-align:center;
+	padding-top: 15%;
+}
+.grid{
+	margin-top:5%;
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	width:70%;
+	margin-left:15%;
+	grid-column-gap:5%;
+	
+
+}
+.grid div{
+	border: solid grey 1px;
+	margin-bottom: 100px;
+}
+.grid img{
+	display:inline-block;
+	width:100%;
+	height: 170px;
+}
+.button{
+	margin-top: 20px;
+	background-color:#FE6148;
+	padding: 15px 32px;
+	text-decoration:none;
+	margin-bottom: 10px;
+	width: 20%;
+	margin-left: 30%;
+
+}
+#button{
+	margin-top: 20px;
+	background-color:#FE6148;
+	padding: 15px 32px;
+	text-decoration:none;
+	margin-bottom: 10px;
+	width: 20%;
+	margin-left: 40%;
+
+}
+a{
+	font-family: 'Rajdhani', sans-serif;
+	color: white;
+	text-decoration: none;
+	font-size: 14pt;
+}
+h2, h3 {
+	margin-bottom: 20px;
+}
+.base img{
+	margin-top:10%;
+	margin-bottom: 5%;
+}
+.base p{
+	width:60%;
+	margin-left: 20%;
+	margin-bottom:5%;
+}
+
+.links span{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 14pt;
+}
+
+.main1 h9{
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 40pt;
+}
+
+.links{
+	position: fixed;
+	background-color: #252128;
+	width: 100%;
+	text-align: center;
+}
+
+.links ul, li{
+	display: inline-block;
+	margin: 15px 13px 15px 13px;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 14pt;
+}
+
+.links ul, li, a{
+	color: white;
+}
+
+.base h2{
+	font-family: 'Anton', sans-serif;
+}
+
+.base h3{
+	font-family: 'Poiret One', cursive;
+}
+
+.base p{
+	font-family: 'Rajdhani', sans-serif;
+}
+
+.grid1, h2{
+	font-family: 'Anton', sans-serif;
+}
+
+.grid1, h3{
+	font-family: 'Poiret One', cursive;
+}
+
+.grid1, p{
+	font-family: 'Rajdhani', sans-serif;
+}

@@ -1,0 +1,194 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url(img/7.JPG) no-repeat fixed 100%;
+}
+
+.links{
+	position: fixed;
+	background-color: #252128;
+	width: 100%;
+	text-align: center;
+}
+
+.links ul, li{
+	display: inline-block;
+	margin: 15px 13px 15px 13px;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 14pt;
+}
+
+.links ul, li, a{
+	color: white;
+}
+
+a{
+	text-decoration: none;
+}
+
+.title{
+	padding-top: 18%;
+	text-align: center;
+}
+
+.title h9{
+	font-size: 65pt;
+	color: white;
+	font-family: 'Anton', sans-serif;
+}
+
+.title p{
+	font-size: 25pt;
+	color: white;
+	font-family: 'Poiret One', cursive;
+}
+
+.title a{
+	font-family: 'Rajdhani', sans-serif;
+}
+
+.link{
+	border-radius: 100px;
+	padding: 10px 20px 10px 20px;
+	display: inline-block;
+	border: 2px #E55151 solid;
+}
+
+.link h10{
+	font-size: 18pt;
+}
+
+.img{
+	margin-top: 15%; 
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.img img{
+	width: 100%;
+}
+
+.about{
+	background: url(img/3.JPG) no-repeat fixed 100%;
+	padding: 10% 0 15% 15%;
+}
+
+.about h9{
+	font-size: 50pt;
+	color: white;
+	font-family: 'Archivo Black', sans-serif;
+}
+
+.text{
+	color: white;
+	line-height: 30px;
+	margin-top: 3%;
+	width: 20%;
+}
+
+.text p{
+	font-family: 'Rajdhani', sans-serif;
+}
+
+.about img{
+	margin-top: 2%;
+	margin-right: 10px;
+	width: 4%;
+	display: inline-block;
+}
+
+.ach{
+	padding: 10% 0 10% 0;
+	background-color: #FE6148;
+	text-align: center;
+}
+
+.ach h9{
+	color: #252128;
+	display: block;
+	font-size: 60pt;
+	font-family: 'Anton', sans-serif;
+}
+
+.f, .s, .th, .fo{
+	margin-right: 100px;
+	margin-top: 50px;
+	display: inline-block;
+}
+
+.f, .s, .th, .fo p{
+	color: #27232B;
+	font-size: 17pt;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+.number{
+	margin-bottom: 15%;
+	border-bottom: 1px #27232B solid;
+}
+
+.start{
+	background-color: #252128;
+	padding: 10% 0 5% 0;
+	text-align: center;
+}
+
+.start h9{
+	font-family: 'Anton', sans-serif;
+	display: block;
+	font-size: 60pt;
+	color: white;
+}
+
+.link2{
+	margin-top: 5%;
+	border-radius: 100px;
+	padding: 10px 20px 10px 20px;
+	display: inline-block;
+	border: 2px #E55151 solid;
+}
+
+.link2 h10{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 18pt;
+}
+
+.club{
+	padding: 5% 0 5% 0;
+	background: url(img/boxing.jpg) no-repeat fixed 100%;
+	background-size: 1700px 1200px;
+	text-align: center;
+}
+
+.club h9{
+	color: white;
+	font-size: 40pt;
+	font-family: 'Anton', sans-serif;
+}
+
+.club p{
+	color: white;
+	font-size: 20pt;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+.cont{
+	padding: 5% 0 5% 0;
+	text-align: center;
+	width: 100%;
+	background-color: #FE6148;
+}
+
+.cont h9{
+	font-size: 40pt;
+	color: #252128;
+	font-family: 'Anton', sans-serif;
+}
+
+.cont p{
+	font-size: 20pt;
+	color: #252128;
+	font-family: 'Rajdhani', sans-serif;
+}

@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	padding-left: 31.0%;
+	padding-right:31.1%;
+	background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(img/1.jpg) no-repeat fixed 100%;
+	background-size: cover;
+	font-family: Arial;
+}
+
+.contact-title{
+	text-align: center;
+	color: white;
+	margin-top: 100px;
+	transition: all 2s ease-in-out;
+}
+
+.contact-title h1{
+	font-size: 50pt;
+	line-height: 55px;
+}
+
+.contact-title h2{
+	font-size: 19pt;
+}
+
+form{
+	margin-top: 50px;
+	transition: all 2s ease-in-out;
+}
+
+.contact-form{
+	text-align: center;
+}
+
+.form-control{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid grey;
+	color: #fff;
+	font-size: 12pt;
+	margin-bottom: 20px; 
+}
+
+input{
+	height: 45px;
+}
+
+form .submit{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid grey;
+	color: white;
+	font-size: 16pt;
+	margin-bottom: 20px;
+	background: #FE6148;
+	border-color: transparent;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+p{
+	padding-top: 10px;
+}
+
+#back{
+	text-align: center;
+}
+
+.back{
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid grey;
+	font-size: 16pt;
+	margin-bottom: 20px;
+	background: #FE6148;
+	border-color: transparent;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
